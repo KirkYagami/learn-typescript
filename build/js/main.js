@@ -11,3 +11,4 @@ let b = 6;
 let c = 2;
 console.log(a / b); // No error: 2
 console.log(c * b); // No error: 12
+export {};

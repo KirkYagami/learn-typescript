@@ -1,3 +1,4 @@
+export{};
 // let a = 12;        // TypeScript infers: number
 // let b = "6";       // TypeScript infers: string
 // let c = 2;         // TypeScript infers: number
