@@ -1,42 +1,18 @@
-/*
-
-Intro:
-
-    We are starting a small community of users. For performance
-    reasons, we have decided to store all users right in the code.
-    This way we can provide our developers with more
-    user-interaction opportunities. With user-related data, at least.
-    All the GDPR-related issues will be solved some other day.
-    This would be the basis for our future experiments during
-    these exercises.
-
-Exercise:
-
-    Given the data, define the interface "User" and use it accordingly.
-
-*/
-
-export type User = unknown;
-
-export const users: unknown[] = [
-    {
-        name: 'Max Mustermann',
-        age: 25,
-        occupation: 'Chimney sweep'
-    },
-    {
-        name: 'Kate Müller',
-        age: 23,
-        occupation: 'Astronaut'
-    }
-];
-
-export function logPerson(user: unknown) {
-    console.log(` - ${user.name}, ${user.age}`);
-}
-
-console.log('Users:');
-users.forEach(logPerson);
+// let a = 12;        // TypeScript infers: number
+// let b = "6";       // TypeScript infers: string
+// let c = 2;         // TypeScript infers: number
 
 
+// let a = 12;
+// let b = "6";
+// let c = 2;
 
+// console.log(a / b);  // TypeScript error: arithmetic operation on string
+// console.log(c * b);  // TypeScript error: arithmetic operation on string
+
+let a: number = 12;
+let b: number = 6;
+let c: number = 2;
+
+console.log(a / b);  // No error: 2
+console.log(c * b);  // No error: 12
