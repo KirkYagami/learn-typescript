@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+dist/
+# build/
+.next/ # For Next.js projects
+out/ # For static site generators or build output
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor and OS generated files
+.DS_Store
+Thumbs.db
+.vscode/ # VS Code settings, if project-specific and not meant for sharing
+
+# Test reports
+coverage/
+
+# IDE specific files
+.idea/ # IntelliJ IDEA
+*.iml # IntelliJ IDEA
+
+# Other temporary files
+tmp/
+temp/
+*.log

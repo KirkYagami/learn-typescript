@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",                    // JavaScript version to compile to
+    "rootDir": "./src",                    // Where TypeScript files are located
+    "outDir": "./build/js",                // Where compiled JS files go
+    "noEmitOnError": true                 // Whether to compile despite errors
+  },
+  "include": ["src"]                       // Only compile files in src directory
+}
